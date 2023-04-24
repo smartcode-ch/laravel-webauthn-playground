@@ -8,7 +8,7 @@ The implementation is based on [lbuchs/WebAuthn](https://github.com/lbuchs/WebAu
 
 1. Clone this repo
 2. Copy `env.example` to `.env`
-3. Run `composer install && php artisan key:generate && npm install && npm install`
+3. Run `composer install && php artisan key:generate && npm install && npm run build`
 4. Serve the application using `HTTPS` under the domain name set in the `VITE_DOMAIN` env variable using [Laravel Valet](https://laravel.com/docs/10.x/valet#securing-sites).
 
 

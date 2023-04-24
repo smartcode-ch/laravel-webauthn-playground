@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'url' => env('VITE_APP_URL'),
+    'url' => 'https://' . env('VITE_DOMAIN'),
 
     'asset_url' => env('ASSET_URL'),
 
